@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body
+    class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 w-screen h-screen"
+  >
+    <div class="h-screen">
+      <form class="flex flex-col items-center justify-center min-h-[100vh]">
+        <div class="flex">
+          <input
+            class="border-0 border-black rounded-3xl px-7 py-1 mr-4 w-[140px] hover:bg-[#e6e5e5]"
+            type="text"
+            placeholder="First name"
+          />
+          <input
+            class="p- border-0 border-black rounded-3xl px-7 py-1 w-[140px] hover:bg-[#e6e5e5]"
+            type="text"
+            placeholder="Last Name"
+          />
+        </div>
+
+        <input
+          class="border-0 border-black rounded-3xl px-2.5 py-1 w-[300px] my-3 mt-5 hover:bg-[#e6e5e5]"
+          type="email"
+          placeholder="Email"
+        />
+        <input
+          class="border-0 border-black rounded-3xl px-2.5 py-1 w-[300px] my-3 hover:bg-[#e6e5e5]"
+          type="password"
+          placeholder="Password"
+        />
+        <input
+          class="border-0 border-black rounded-3xl px-2.5 py-1 w-[300px] my-3 hover:bg-[#e6e5e5]"
+          type="password"
+          placeholder="Confirm Password"
+        />
+        <div class="flex">
+          <input type="checkbox" class="rounded-none mr-2" />
+          <p class="text-white text-base">
+            I accept
+            <a href="#" class="text-[#1515e2] font-bold">Term of Use</a>
+          </p>
+        </div>
+        <button
+          type="submit"
+          class="bg-[rgb(72,157,236)] w-[250px] py-2 rounded-3xl text-white mt-2 hover:bg-[rgba(72,157,236,0.8)]"
+        >
+          REGISTER NOW
+        </button>
+      </form>
+    </div>
+  </body>
+</html>
